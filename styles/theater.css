@@ -4,3 +4,15 @@ header {
 nav {
     background-color: blueviolet;
 }
+main {
+    background-color: pink;
+}
+ul {
+    background-color: chartreuse;
+}
+li {
+    background-color: darkorchid;
+}
+footer {
+    background-color: coral;
+}
