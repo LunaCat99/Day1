@@ -4,21 +4,27 @@ body {
     padding:0px;
     box-sizing: border-box;
 }
+
 header {
     background-color:violet;
 }
+
 nav {
     background-color: blueviolet;
 }
+
 main {
     background-color: pink;
 }
+
 ul {
     background-color: chartreuse;
 }
+
 li {
     background-color: darkorchid;
 }
+
 footer {
     background-color: coral;
 }
