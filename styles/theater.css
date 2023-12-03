@@ -33,6 +33,10 @@ nav p {
     color: darkslategray;
 }
 
+nav p:hover {
+    color: darkgoldenrod;
+}
+
 nav, main, footer {
     color: white;
     display: flex;
@@ -81,4 +85,8 @@ h2 {
 
 p {
     line-height: 2em;
+}
+
+footer a {
+    color: darkgoldenrod;
 }
