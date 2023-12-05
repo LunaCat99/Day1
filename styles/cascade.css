@@ -56,6 +56,7 @@ footer {
     color: white;
     padding: 9px;
     background-color: rgba(68,165,181,0.8);
+    clear: both;
 }
 
 footer p {
@@ -80,4 +81,33 @@ footer p {
     background-color: rgba(255,255,255,0.4);
     color: #44a5b5;
     padding: 4px;
+}
+
+.sidebar a {
+    color: #44a5b5;
+}
+
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    font-size: 10px;
+}
+
+.image-right {
+    float: right;
+}
+
+.image-left {
+    float: left;
+    margin-right: 7px;
+}
+
+h1, h2, h3 {
+    font-family: 'Ephesis', cursive;
+}
+
+p, li {
+    font-family: 'Lora', serif;
 }
