@@ -1,0 +1,22 @@
+nav, a {
+    background-color: rgb(26, 29, 29);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    border: 1px solid rgb(251, 251, 251);
+    flex-wrap: wrap;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #344e5f;
+}
