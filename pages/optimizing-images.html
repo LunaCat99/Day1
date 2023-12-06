@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Optimizing Images</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
     <link href="../styles/navigation.css" type="text/css" rel="stylesheet">
 
     <style>
         .loki {
-            background-color: rgb(199, 87, 68);
+            background-color: #576BE6;
             width: 700px;
             padding: 7px;
             margin: 5px;
@@ -21,6 +25,43 @@
             color: white;
             vertical-align: top;
             margin-left: 5px;
+            font-family: 'Fira Mono', monospace;
+        }
+
+        .clear {
+            clear: both;
+        }
+
+        .leo {
+            background-color: #C86EE6;
+            padding: 0px 5px 5px 0px;
+        }
+
+        .leo img {
+            vertical-align: top;
+            margin: 10px 5px 3px 6px;
+        }
+
+        footer {
+            color: #E68A85;
+            padding: 9px;
+            background-color: #A3E6BD;
+            clear: both;
+            text-align: center;
+            font-family: 'Fira Mono', monospace;
+        }
+
+        h1 {
+            font-family: 'Silkscreen', sans-serif;
+            text-align: center;
+            color: #E68A85;
+            
+        }
+
+        header {
+            padding: 9px;
+            background-color: #A3E6BD;
+            clear: both;
         }
     </style>
 
@@ -39,58 +80,83 @@
         </ul>
     </nav>
 
-    <article class="loki">
-        <img src="../optimizing-images-content/images-for-the-web/80.jpg" alt="80 Percent JPG Sample" height="500px">
+    <header>
+        <h1>Optimizing Images</h1>
+    </header>
 
-        <section class="leroy">
-            <p>80% JPEG - 90k<br>
-            The quality is very good.</p>
-        </section>
-    </article>
+        <article class="loki">
+            <img src="../optimizing-images-content/images-for-the-web/80.jpg" alt="80 Percent JPG Sample" height="500px">
 
-    <article class="loki">
-        <img src="../optimizing-images-content/images-for-the-web/40.jpg" alt="40 Percent JPG Sample" height="500px">
+            <section class="leroy">
+                <p>80% JPEG - 90k<br>
+                The quality is very good.</p>
+            </section>
+        </article>
 
-        <section class="leroy">
-            <p>40% JPEG - 32k<br>
-            The quality is medium-low.</p>
-        </section>
-    </article>
+        <article class="loki">
+            <img src="../optimizing-images-content/images-for-the-web/40.jpg" alt="40 Percent JPG Sample" height="500px">
 
-    <article class="loki">
-        <img src="../optimizing-images-content/images-for-the-web/256.gif" alt="256 Color GIF Sample" height="500px">
+            <section class="leroy">
+                <p>40% JPEG - 32k<br>
+                The quality is medium-low.</p>
+            </section>
+        </article>
 
-        <section class="leroy">
-            <p>256 Color GIF - 140K<br>
-            The quality is medium.</p>
-        </section>
-    </article>
+        <article class="loki">
+            <img src="../optimizing-images-content/images-for-the-web/256.gif" alt="256 Color GIF Sample" height="500px">
 
-    <article class="loki">
-        <img src="../optimizing-images-content/images-for-the-web/64.gif" alt="64 Color GIF Sample" height="500px">
+            <section class="leroy">
+                <p>256 Color GIF - 140K<br>
+                The quality is medium.</p>
+            </section>
+        </article>
 
-        <section class="leroy">
-            <p>64 Color GIF - 95K<br>
-            The quality is very low.</p>
-        </section>
-    </article>
+        <article class="loki">
+            <img src="../optimizing-images-content/images-for-the-web/64.gif" alt="64 Color GIF Sample" height="500px">
 
-    <article class="loki">
-        <img src="../optimizing-images-content/images-for-the-web/8.gif" alt="8 Color GIF Sample" height="500px">
+            <section class="leroy">
+                <p>64 Color GIF - 95K<br>
+                The quality is very low.</p>
+            </section>
+        </article>
 
-        <section class="leroy">
-            <p>8 Color GIF - 33K<br>
-            The quality is very low.</p>
-        </section>
-    </article>
+        <article class="loki">
+            <img src="../optimizing-images-content/images-for-the-web/8.gif" alt="8 Color GIF Sample" height="500px">
 
-    <article class="loki">
-        <img src="../optimizing-images-content/images-for-the-web/24.png" alt="PNG 24 Sample" height="500px">
+            <section class="leroy">
+                <p>8 Color GIF - 33K<br>
+                The quality is very low.</p>
+            </section>
+        </article>
 
-        <section class="leroy">
-            <p>PNG 24 - 328k<br>
-            The quality is fair.</p>
-        </section>
-    </article>
+        <article class="loki">
+            <img src="../optimizing-images-content/images-for-the-web/24.png" alt="PNG 24 Sample" height="500px">
+
+            <section class="leroy">
+                <p>PNG 24 - 328k<br>
+                The quality is fair.</p>
+            </section>
+        </article>
+
+        <div class="clear"></div>
+
+        <article class="leo">
+            <img src="../optimizing-images-content/images-for-the-web/shroom1.jpg" alt="A set of red mushrooms with white dots." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom2.jpg" alt="Cluster of brown mushrooms growinf at the base of a tree." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom3.jpg" alt="Clusters of mushrooms growing on a mossy tree trunk." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom4.jpg" alt="Singular robust red mushroom with white specks." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom5.jpg" alt="Image of the underside of some brown mushrooms shot from the forest floor." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom6.jpg" alt="Black and white image of the underside of three different mushroom caps." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom7.jpg" alt="Cluster of mushrooms growing on top and around a cut tree trunk." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom8.jpg" alt="Small cluster of glowing, yellow mushrooms growing on a fallen tree trunk." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom9.jpg" alt="Small clister of mushrooms growing on a mossy tree branch." width="400px">
+            <img src="../optimizing-images-content/images-for-the-web/shroom10.jpg" alt="Two mushrooms growing from a red tree trunk." width="400px">
+        </article>
+
+    <footer>
+        <p><b>Elizabeth Saldana - 2023 - Everett Community College - Graph 130 - Web Coding Project - Educational Purposes</b></p>
+    </footer>
+
+
 </body>
 </html>
