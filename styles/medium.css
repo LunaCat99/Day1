@@ -31,7 +31,7 @@ nav li {
 
 nav a, nav a:link, nav a:visited {
     padding: 1em;
-
+    display: inline;
     width: 100%;
     border: 1px solid #44a5b5;
 }
