@@ -105,7 +105,11 @@ figcaption {
 }
 
 h1, h2, h3 {
-    font-family: 'Ephesis', cursive;
+    .ephesis-regular {
+        font-family: "Ephesis", cursive;
+        font-weight: 400;
+        font-style: normal;
+      }
 }
 
 p, li {
