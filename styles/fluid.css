@@ -71,6 +71,8 @@ section {
 
 .hero {
     background-image: url(../fluid-dimensions/raw-images/JPEG/Water_06.jpg);
+    border-top-right-radius: 2em;
+    /* border: solid black 2px; */
 }
 
 .hero p {
